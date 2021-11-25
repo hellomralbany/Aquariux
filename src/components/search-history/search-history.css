@@ -1,0 +1,57 @@
+.history_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.item {
+    display: inline-block;
+}
+
+.search_hist_header {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.history_right {
+    float: right;
+    position: relative;
+}
+
+.time {
+    display: inline-block;
+}
+
+.searchbtn {
+    background: url(/src/assets/search.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    right: 5px;
+    clear: both;
+}
+
+.delete {
+    display: inline-block;
+    background: url(/src/assets/delete.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    position: relative;
+    margin-left: 10px;
+    right: 10px;
+    clear: both;
+}
+
+.empty_history {
+    margin: 20px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}

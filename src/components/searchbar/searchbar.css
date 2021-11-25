@@ -1,0 +1,38 @@
+.search_form {
+    margin: 10px 0;
+}
+
+.input_wrapper {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.search_input {
+    margin: 0 10px;
+    padding: 2px 0;
+}
+
+.button_wrapper {
+    display: inline-block;
+}
+
+.btn {
+    margin: 0 3px;
+    padding: 2px 5px;
+}
+
+@media screen and (max-width: 790px) {
+    .search_form {
+        text-align: center;
+    }
+    .button_wrapper {
+        margin: 10px 0px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .input_wrapper label {
+        display: block;
+    }
+}

@@ -1,0 +1,12 @@
+.weather_wrapper {
+    margin: 20px 40px;
+}
+.weather_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.weather_labels {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(170,170,170);
+}
