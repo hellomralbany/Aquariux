@@ -23,7 +23,9 @@ export default class SearchHistory extends React.Component {
     displayRecent() {
         return this.props.history.map((item, i) => (
             <div className="history_list" key={i}>
-                <div className="item"><p>{i + 1}. {item.display_name}, {item.display_country}</p></div>
+                <div className="item">
+                    <p>{i + 1}. {item.display_name}, {item.display_country}</p>
+                </div>
                 <div className="history_right">
                     <p className="time">{this.setTime(item.timestamp)}</p>
                     <span className="searchbtn" onClick={this.searchRecent.bind(this, i)}></span>
